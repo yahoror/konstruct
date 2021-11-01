@@ -1,0 +1,139 @@
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+	.header {
+		text-align: center;
+	}
+	h1 {
+		margin-top: 300px;
+	}
+	.header__scroll {
+		margin-bottom: 50px;
+	}
+	.container__header-nav {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+@media only screen and (min-width: 350px) and (max-height: 1565px) {
+	.header {
+		text-align: center;
+	}
+	.header__scroll {
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+	.header__nav {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (min-width: 800px) {
+	.header__nav {
+		display: flex;
+		flex-direction: row;
+	}
+}
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+	.header__nav-items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 45px;
+	}
+	.header__nav {
+		display: flex;
+		align-items: center;
+	}
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-family: "Bebas Neue", cursive;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 70px;
+	letter-spacing: 5px;
+	margin-top: 300px;
+	margin-bottom: 0;
+}
+footer{
+	margin-top: 10px;
+}
+.container__header-nav {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 18px;
+}
+.header {
+	background-image: url(../images/bgimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 770px;
+	color: #ffffff;
+}
+.header__logo {
+	margin-top: 40px;
+}
+.header__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header__text {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 21px;
+	margin-top: 20px;
+}
+.header__scroll {
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 15px;
+	margin-top: 220px;
+}
+.header__scroll a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+.header__scroll a {
+	color: #ffffff;
+	scroll-behavior: smooth;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 950px;
+	margin: 0 auto;
+}
+.header__nav-items a {
+	text-transform: uppercase;
+	color: #48555b;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+	padding-right: 48px;
+	margin-top: 20px;
+}
+.header__nav-items a:hover {
+	color: #00a4e5;
+}
+.header__logo-black {
+	margin-top: 25px;
+}
