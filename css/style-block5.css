@@ -51,6 +51,7 @@
 	color: #ffffff;
 	letter-spacing: 0.5px;
 	padding: 11px 20px;
+	border: none;
 }
 .newsletter__submit:hover {
 	background-color: #018cc4;
@@ -121,6 +122,7 @@
 	color: #ffffff;
 	letter-spacing: 0.846154px;
 	transition: 0.5s;
+	cursor: pointer;
 }
 .link:hover {
 	color: darkblue;

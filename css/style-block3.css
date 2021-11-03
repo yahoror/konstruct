@@ -15,7 +15,8 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 	min-height: 446px;
-	margin-top: 130px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 /*------container1-----------------------*/
@@ -23,6 +24,7 @@ body {
 .services {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .services_h2 {
@@ -33,6 +35,7 @@ body {
 	height: 20px;
 	text-transform: uppercase;
 	margin-top: 0;
+	margin-bottom: 14px;
 }
 
 .services_line {
@@ -54,6 +57,9 @@ body {
 	.services_p {
 		margin: 0 0 0 60px;
 	}
+	.services {
+		padding: 0px 20px 0px 20px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -62,7 +68,7 @@ body {
 	}
 }
 
-@media (max-width: 510px) {
+@media (max-width: 580px) {
 	.services_p {
 		display: none;
 	}
@@ -80,20 +86,32 @@ body {
 	border: none;
 	text-transform: uppercase;
 	cursor: pointer;
-	box-shadow: -2px 2px 2px rgb(114, 106, 106);
+	transition: 0.7s;
 }
+
 .services_button:hover {
-	width: 155px;
-	height: 45px;
 	opacity: 0.7;
 	color: #3f3b3b;
-	box-shadow: -5px 5px 5px rgb(114, 106, 106);
+	transition: 0.7s;
+}
+
+@media (max-width: 580px) {
+	.services_button {
+		margin-left: auto;
+	}
 }
 
 /*------container2-----------------------*/
 
 .container2 {
 	margin-top: 90px;
+}
+
+.container2_a {
+	cursor: pointer;
+	text-decoration: none;
+	list-style: none;
+	color: inherit;
 }
 
 .container2_ul {
@@ -134,7 +152,7 @@ body {
 .container2_icons {
 	width: 94px;
 	height: 113px;
-	padding-top: 35px;
+	padding-top: 38px;
 	padding-left: 23px;
 }
 
@@ -155,7 +173,7 @@ body {
 	line-height: 177%;
 	width: 250px;
 	height: 92px;
-	padding-top: 60px;
+	padding-top: 38px;
 	padding-left: 23px;
 	padding-bottom: 39px;
 	margin: 0;
